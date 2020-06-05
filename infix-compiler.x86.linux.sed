@@ -1,7 +1,7 @@
 #!/bin/sed -Enf
 
 # A [proof-of-concept] compiler for arithmetical expressions.
-# Contains a implementation of recursive descent parsing
+# Contains an implementation of recursive descent parsing
 # and x86 machine code generation.
 
 # (c) Circiter (mailto:xcirciter@gmail.com).
