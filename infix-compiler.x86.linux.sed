@@ -10,7 +10,7 @@
 
 # Usage (for 32bit Linux):
 #  echo <formula> | ./infix-compiler.x86.linux.sed > compiled.bin
-#  m2elf.pl --in compiled.bin --out executable --binary
+#  m2elf.pl --in compiled.bin --out executable --mem=200 --binary
 #  chmod +x executable
 #  ./executable
 # or:
