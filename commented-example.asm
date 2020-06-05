@@ -99,7 +99,7 @@ show_digits:
   cmp ecx, 0
   jnz show_digits
 
-; Exit (I place this optional code here because
+; Exit (I placed this optional code here because
 ; the sed script inserts some garbage at the
 ; end of a generated code).
 mov eax, 1
