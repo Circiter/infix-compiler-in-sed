@@ -141,7 +141,6 @@ s/^[ ]*[^ ]//;
     /return_4$/ {s/\n[^\n]*$//; breturn_4}
     bend
 
-# TODO: Add support for negative numbers.
 :unary
     /^[0-9]+[^0-9]/ {
         x; s/$/\x31\xDB@/; G # xor ebx, ebx
