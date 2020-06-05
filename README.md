@@ -1,6 +1,6 @@
 # infix-compiler-in-sed
 
-An implementation of recursive descent parsing and [machine]code generation in sed
+An implementation of recursive descent parsing and [machine] code generation in sed
 (the famous stream text editor).
 
 Accepts an infix arithmetic formula (e.g, `(1+2)*3`) and produces a x86 machine code (without
