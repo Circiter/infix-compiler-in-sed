@@ -36,7 +36,7 @@ Dependencies:
 - [m2elf.pl](https://github.com/XlogicX/m2elf),
 - Perl (for m2elf.pl),
 - Optional: xxd, objdump (used by test.sh),
-- Optional: qemu (or its analog), if you lack a Linux/x86 box.
+- Optional: [qemu](http://www.qemu.org) (or its analog), if you lack a Linux/x86 box.
 
 Actual code is contained in `infix-compiler.x86.linux.sed`, have a look.
 
